@@ -1,0 +1,13 @@
+name: image_analysis_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8  # or any version required
+  - numpy
+  - scipy
+  - scikit-image
+  - matplotlib  # if plotting is required
+  - pandas  # if you're using it for data manipulation
+  - pip
+
