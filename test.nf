@@ -3,11 +3,7 @@ process pyTask {
     output:
     stdout
     """
-    #!/usr/bin/env python3
-    def main():
-        print("hello")
-    if __name__ == "__main__":
-        main()
+    python /home/users/allstaff/shen.t/NfBioImageAnalysis/printing.py
     """
 }
 workflow {
